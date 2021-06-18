@@ -1,0 +1,96 @@
+* {
+  margin : 0 ;
+  padding : 0 ;
+  box-sizing: 0 ;
+}
+body {
+  background: hsl(210, 36%, 96%);
+}
+.section-center {
+  margin : 10rem auto 3rem;
+  max-width: 30rem;
+  padding : 2rem;
+  background: bisque;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0.3rem;
+}
+.grocery-item:hover {
+  color: #617d98;
+  background: #f1f5f8;
+}
+.grocery-item:hover .title {
+  color: #617d98;
+}
+.grocery-container {
+  transition: all 0.3s linear;
+  visibility: hidden;
+}
+.clear-btn {
+  display: grid;
+  align-items: center;
+  margin: 0 auto;
+  border: none;
+  padding: 0.5rem;
+  color: #e66b6b;
+
+}
+.show-container {
+  transition: all 2s linear;
+  visibility: visible;
+}
+button.clear-btn {
+  margin-top: 1rem;
+}
+h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.form-control {
+  display: flex;
+}
+.submit-btn {
+  background: #a5d5f8;
+  letter-spacing: 2px;
+  border: none;
+  padding: 0.5rem;
+}
+#grocery {
+  background: #f1f5f8;
+  color: #617d98;
+  flex: 1 0 auto;
+  border: none;
+}
+.title {
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.delete-btn {
+  letter-spacing:2px;
+  border : none;
+  padding: 0.5rem;
+  color: #e66b6b;
+}
+.edit-btn {
+  letter-spacing: 2px;
+  border : none;
+  padding: 0.5rem;
+  color:#6be675;
+}
+.btn-container {
+  margin: o, 2rem;
+}
+.alert-danger {
+  color: #e66b6b;
+  text-align: center;
+}
+.alert-success {
+  color:#6be675;
+  text-align: center;
+}
